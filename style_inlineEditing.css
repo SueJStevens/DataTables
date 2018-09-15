@@ -1,0 +1,7 @@
+#example_filter .form-control {
+	background-image: url('data:image/svg+xml;utf8,<svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" id="spyglass" viewBox="0 0 22 22" height="22" width="22"><path d="m 10.011718,5.0898489 c -2.7000005,0 -4.9003915,2.2004 -4.9003915,4.9003996 0,2.6999995 2.200391,4.8983995 4.9003915,4.8983995 1.154374,0 2.204251,-0.4184 3.042969,-1.0898 l 3.207031,3.1113 0.626953,-0.6465 -3.185547,-3.0879 c 0.743242,-0.8594 1.208984,-1.964 1.208984,-3.1854995 0,-2.6999996 -2.20039,-4.9003996 -4.90039,-4.9003996 z m 0,1 c 2.2,0 3.90039,1.7004 3.90039,3.9003996 0,2.1999995 -1.70039,3.8983995 -3.90039,3.8983995 -2.2000005,0 -3.9003915,-1.6984 -3.9003915,-3.8983995 0,-2.1999996 1.700391,-3.9003996 3.9003915,-3.9003996 z" style="fill:#808080"/></svg>');
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-position: 0px 3px !important;
+	padding-left: 22px;
+}

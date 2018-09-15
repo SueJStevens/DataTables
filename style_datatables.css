@@ -1,0 +1,74 @@
+#example_previous a {
+	color: #6c757d;
+	background-color:transparent;
+	border-color: #6c757d;
+}
+
+
+#example_next a {
+	color: #6c757d;
+	background-color:transparent;
+	border-color: #6c757d;
+}
+
+.pagination>li>a, .pagination>li>span{
+	color: #6c757d;
+	background-color:transparent;
+	border-color: #6c757d;
+/*	background-color:transparent;	border:1px solid #6c757d !important;*/
+}
+
+.page-item.active .page-link{
+	font-weight: 400;
+	color: #212529;
+	background-color:transparent;
+	border-color: #6c757d;
+/*	background-color:transparent;	border:1px solid #6c757d !important;*/
+}
+
+.page-item.active {
+	color: #fff;
+	background-color: #C2C6C9;
+	border-color: #6c757d;
+	/*border: 1px solid transparent;*/
+	text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.previous:hover, .next:hover, .page-link:hover {
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+	border: 1px solid transparent;
+	text-decoration: none;
+	transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.previous:hover {
+	border-top-left-radius: .25rem;
+	border-bottom-left-radius: .25rem;
+}
+
+.next:hover {
+	border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+}
+
+#example_previous:hover a {
+	color: #fff;
+}
+
+#example_next:hover a {
+	color: #fff;
+}
+
+/*sjs 8/21/18 change default border color of inputs*/
+.form-control {
+  border-color: #6c757d;
+}
+
+/*sjs 8/21/18 change default border color of inputs*/
+.form-control:focus {  
+  border-color: #6c757d;
+  box-shadow: 0 0 0 0.2rem rgba(108, 117, 125, 0.25);
+}

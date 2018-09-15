@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+.bg-light {
+    background-color: white!important;
+}
+
+.nav-item {
+    font-weight: 400;
+}
+
+#copyright {
+    font-weight: 300;
+}
+
+.redbar {
+    color: #E21D38;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+/* Margin bottom by footer height */
+margin-bottom: 60px;
+}
+.footer {
+position: absolute;
+bottom: 0;
+width: 100%;
+/* Set the fixed height of the footer here */
+height: 60px;
+background-color: white;
+}
+/* --------------------------------------------------
+End Sticky footer styles */
